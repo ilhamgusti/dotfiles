@@ -14,7 +14,7 @@ ZSH_THEME="spaceship"
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in ~/.oh-my-zsh/themes/
 # If set to an empty array, this variable will have no effect.
-# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
+ ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" "spaceship" )
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -36,7 +36,7 @@ ZSH_THEME="spaceship"
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
+DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
@@ -71,7 +71,22 @@ zsh-autosuggestions
 sdk
 tmux
 z
-
+zsh-better-npm-completion
+command-not-found
+common-aliases
+copyfile
+docker
+encode64
+extract
+git-flow
+httpie
+last-working-dir
+npm
+rand-quote
+redis-cli
+sudo
+systemd
+yarn
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -104,6 +119,10 @@ ZSH_TMUX_AUTOSTART=true
 # Example aliases
   alias zshconfig="vim ~/.zshrc"
   alias i3config="vim ~/.config/i3/config"
+  alias trash="gio trash"
+  alias trash-ls="gio list trash://"
+  alias trash-empty="gio trash --empty"
+  alias svimconfig="vim ~/.SpaceVim.d/init.toml"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
 #
@@ -119,18 +138,28 @@ export SDKMAN_DIR="/home/ilhamgusti/.sdkman"
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+#FLUTTER & DART SDK
 export PATH="$PATH:/opt/flutter/bin"
 export PATH="$PATH:/usr/lib/dart/bin/"
 
 #PUB DART PACKAGE MANAGER LOCATION
 export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+##GO LANG PATH
 export PATH="$PATH:/usr/local/go/bin"
+export GOPATH="$HOME/development/go"
 
 
+## Android Path SDK for React Native
+#
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
-
-
+eval $(/usr/bin/gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh)
 
 #########CUSTOM SCRIPT############
 #
@@ -144,3 +173,24 @@ date | lolcat
 #
 #
 #EOF
+
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+#__conda_setup="$('/home/ilhamgusti/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/home/ilhamgusti/anaconda3/etc/profile.d/conda.sh" ]; then
+#        . "/home/ilhamgusti/anaconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/home/ilhamgusti/anaconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
+# <<< conda initialize <<<
+
+alias lzd='docker run -it -v /var/run/docker.sock:/var/run/docker.sock -v /yourpath/config:/.config/jesseduffield/lazydocker lazyteam/lazydocker'
+alias please=sudo
+alias sqlite=sqlite3
+export PATH="$HOME/.tmuxifier/bin:$PATH"
