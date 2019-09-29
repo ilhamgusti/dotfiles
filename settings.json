@@ -1,0 +1,246 @@
+{
+  "vscode_custom_css.imports": [
+    "file:///home/ilhamgusti/.vscode/extensions/robbowen.synthwave-vscode-0.0.7/synthwave84.css"
+		],
+  "vscode_custom_css.policy": true,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"dart.flutterSdkPath": "/opt/flutter",
+	"explorer.confirmDragAndDrop": false,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"window.zoomLevel": 0,
+	"eslint.autoFixOnSave": true,
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact",
+		"vue-html": "html",
+		"razor": "html",
+		"plaintext": "jade",
+		"jsx-sublime-babel-tags": "javascriptreact"
+	},
+	"editor.fontFamily": "\"Dank Mono\",\"Operator Mono Lig\", \"FuraCode Nerd Font\",\"Source Code Pro\",Consolas , \"Courier New\",  sans-serif",
+	"editor.fontSize": 14,
+	"editor.fontLigatures": true,
+	"editor.fontWeight": "500",
+	// "editor.formatOnType": true,
+
+	// "[javascript]": {
+	//     "editor.defaultFormatter": "esbenp.prettier-vscode"
+	// },
+	"prettier.eslintIntegration": true,
+	// Set the default
+	// "editor.formatOnSave": false,
+	// Enable per-language
+	"[javascript]": {
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"editor.wordWrap": "on",
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.minimap.enabled": true,
+	"prettier.singleQuote": true,
+	"prettier.tabWidth": 2,
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 100,
+	"prettier.useTabs": true,
+	"advancedNewFile.exclude": {
+		"node_modules": true,
+		"node_modules_electron": true,
+		"dev": true,
+		"dist": true
+	},
+	"advancedNewFile.showInformationMessages": true,
+	"advancedNewFile.convenienceOptions": ["last", "current", "root"],
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.trimAutoWhitespace": true,
+	"files.autoSave": "onFocusChange",
+	"emmet.syntaxProfiles": {
+		"javascript": "jsx",
+		"vue-html": "html"
+	},
+	"eslint.validate": ["javascript", "javascriptreact"],
+	"javascript.validate.enable": true,
+	"git.enableSmartCommit": false,
+	"files.trimTrailingWhitespace": true,
+	"gitlens.historyExplorer.enabled": true,
+	"diffEditor.ignoreTrimWhitespace": false,
+	"workbench.sideBar.location": "left",
+	"editor.detectIndentation": true,
+	"editor.renderIndentGuides": false,
+	"auto-close-tag.SublimeText3Mode": true,
+	"todo-tree.customHighlight": {
+		"TODO": {
+			"icon": "check",
+			"type": "line",
+			"foreground": "white",
+			"background": "green",
+			"opacity": 75,
+			"iconColour": "green"
+		},
+		"FIXME": {
+			"icon": "alert",
+			"type": "text",
+			"background": "blue",
+			"opacity": 75,
+			"foreground": "white",
+			"iconColour": "blue"
+		}
+	},
+	"vim.statusBarColorControl": true,
+	"vim.statusBarColors.normal": ["#8FBCBB", "#434C5E"],
+	"vim.statusBarColors.insert": "#BF616A",
+	"vim.statusBarColors.visual": "#B48EAD",
+	"vim.statusBarColors.visualline": "#B48EAD",
+	"vim.statusBarColors.visualblock": "#A3BE8C",
+	"vim.statusBarColors.replace": "#D08770",
+	"workbench.colorCustomizations": {
+		// "statusBar.background": "#4c00ff",
+		// "statusBar.noFolderBackground": "#8FBCBB",
+		// "statusBar.debuggingBackground": "#8FBCBB",
+		// "activityBarBadge.background": "#db3333",
+		// "list.activeSelectionForeground": "#2979FF",
+		// "list.inactiveSelectionForeground": "#2979FF",
+		// "list.highlightForeground": "#2979FF",
+		// "scrollbarSlider.activeBackground": "#2979FF50",
+		// "editorSuggestWidget.highlightForeground": "#2979FF",
+		// "textLink.foreground": "#2979FF",
+		// "progressBar.background": "#2979FF",
+		// "pickerGroup.foreground": "#2979FF",
+		// "tab.activeBorder": "#2979FF",
+		// "notificationLink.foreground": "#2979FF",
+		// "editorWidget.resizeBorder": "#2979FF",
+		// "editorWidget.border": "#2979FF",
+		// "settings.modifiedItemIndicator": "#2979FF",
+		// "settings.headerForeground": "#2979FF",
+		// "panelTitle.activeBorder": "#2979FF",
+		// "breadcrumb.activeSelectionForeground": "#2979FF",
+		// "menu.selectionForeground": "#2979FF",
+		// "menubar.selectionForeground": "#2979FF",
+		"statusBar.foreground": "#986cff",
+	// "activityBar.background": "#632edd",
+	// "activityBar.background": "#632edd",
+	"activityBar.foreground": "#986cff"
+	},
+	"materialTheme.accent": "Orange",
+	"cSpell.userWords": ["user"],
+	"window.menuBarVisibility": "toggle",
+	"workbench.statusBar.visible": true,
+	"workbench.activityBar.visible": true,
+	"workbench.colorTheme": "SynthWave '84",
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	"todo.file.name": "TODO", // Todo file name. Other supported names are: `*.todo`, `*.todos`, `*.task`, `*.tasks`, `*.taskpaper` and `todolist.txt`
+	"todo.file.defaultContent": "\nTodo:\n  ☐ Item\n", // New todo files default content
+	"todo.file.include": ["**/TODO"], // Globs to use for including files
+	"todo.file.exclude": ["**/.!(todo|todos|task|tasks)/**"], // Globs to use for excluding files
+	"todo.file.view.expanded": true, // Start the tree in an expanded state
+	"todo.indentation": "  ", // String used for indentation
+	"todo.symbols.box": "☐", // Box symbol
+	"todo.symbols.done": "✔", // Done symbol
+	"todo.symbols.cancelled": "✘", // Cancelled symbol
+	"todo.colors.done": "#a6e22e", // Done todo color
+	"todo.colors.cancelled": "#f92672", // Cancelled todo color
+	"todo.colors.code": "#fd971f", // Code color
+	"todo.colors.comment": "#75715e", // Comment color
+	"todo.colors.project": "#66d9ef", // Project color
+	"todo.colors.projectStatistics": "#4694a3", // Project statistics color
+	"todo.colors.tag": "#e6db74", // Tag color
+	"todo.colors.tags.background": ["#e54545", "#e59f45", "#e5d145", "#ae81ff"], // Special tags' background colors
+	"todo.colors.tags.foreground": ["#000000", "#000000", "#000000", "#000000"], // Special tags' foreground colors
+	"todo.colors.types": { "TODO": "#ffcc00", "FIXME": "#cc0000" }, // Object mapping todo types to their color
+	"todo.colors.dark": {
+		/* "done": "white", ... */
+	}, // Colors for dark themes
+	"todo.colors.light": {
+		/* "done": "black", ... */
+	}, // Colors for light themes
+	"todo.tags.names": ["critical", "high", "low", "today"], // Special tags' names
+	"todo.tags.namesInference": true, // Infer commonly used tags' names
+	"todo.archive.name": "Archive", // Name of the special "Archive" section
+	"todo.archive.remove.emptyProjects": true, // Remove projects without todos
+	"todo.archive.remove.emptyLines": 1, // Remove extra empty lines, keeping no more than `emptyLinesThreshold` consecutive empty lines
+	"todo.archive.project.enabled": true, // Enable the @project tag
+	"todo.archive.project.separator": ".", // String used for joining multiple projects
+	"todo.archive.sortByDate": false, // Sort lines by finished date
+	"todo.formatting.enabled": true, // Enable markdown-like formatting
+	"todo.timekeeping.created.enabled": false, // Enable the @created tag
+	"todo.timekeeping.created.time": true, // Insert the time inside the @created tag
+	"todo.timekeeping.created.format": "YY-MM-DD HH:mm", // Format used for displaying time inside @created
+	"todo.timekeeping.started.time": true, // Insert the time inside the @started tag
+	"todo.timekeeping.started.format": "YY-MM-DD HH:mm", // Format used for displaying time inside @started
+	"todo.timekeeping.finished.enabled": true, // Enable the @done/cancelled tag. It's always enabled if you explicitly start a todo or if you use only 1 symbol
+	"todo.timekeeping.finished.time": true, // Insert the time inside the @done/cancelled tag
+	"todo.timekeeping.finished.format": "YY-MM-DD HH:mm", // Format used for displaying time inside @done/cancelled
+	"todo.timekeeping.elapsed.enabled": true, // Enable the @lasted/wasted tag
+	"todo.timekeeping.elapsed.format": "short-compact", // Format used for displaying time diff inside @lasted/waster
+	"todo.timekeeping.estimate.format": "short-compact", // Format used for the `[est]` token
+	"todo.timer.statusbar.enabled": true, // Show a timer for started todos in the statusbar
+	"todo.timer.statusbar.alignment": "left", // Should the item be placed to the left or right?
+	"todo.timer.statusbar.color": "", // The foreground color for this item
+	"todo.timer.statusbar.priority": -10, // The priority of this item. Higher value means the item should be shown more to the left
+	"todo.statistics.project.enabled": "global.projects < 100 && project.pending > 0", // Show statistics next to a project, boolean or JS expression
+	"todo.statistics.project.text": "([pending]) [est]", // Template used for rendering the text
+	"todo.statistics.statusbar.enabled": "global.all > 0", // Show statistics in the statusbar, boolean or JS expression
+	"todo.statistics.statusbar.ignoreArchive": true, // Ignore the archive when rendering statistics in the statusbar
+	"todo.statistics.statusbar.alignment": "left", // Should the item be placed to the left or right?
+	"todo.statistics.statusbar.color": "", // The foreground color for this item
+	"todo.statistics.statusbar.command": "", // Command to execute on click
+	"todo.statistics.statusbar.priority": -1, // The priority of this item. Higher value means the item should be shown more to the left
+	"todo.statistics.statusbar.text": "$(check) [finished]/[all] ([percentage]%)", // Template used for rendering the text
+	"todo.statistics.statusbar.tooltip": "[pending] Pending - [done] Done - [cancelled] Cancelled", // Template used for rendering the tooltip
+	"todo.embedded.regex": "(?:<!-- *)?(?:#|//|/\\*+|<!--|--|\\* @|\\{!|\\{\\{!--|\\{\\{!) *(TODO|FIXME|FIX|BUG|UGLY|HACK|NOTE|IDEA|REVIEW|DEBUG|OPTIMIZE)(?:\\s*\\([^)]+\\))?:?(?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|\\{!|\\{\\{!--|\\{\\{!))|((?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|\\{!|\\{\\{!--|\\{\\{!))|(?: +[^@\\n]+)?))", // Regex used for finding embedded todos, requires double escaping
+	"todo.embedded.regexFlags": "gi", // Regex flags to use
+	"todo.embedded.include": ["**/*"], // Globs to use for including files
+	"todo.embedded.exclude": ["**/.*", "**/.*/**"], // Globs to use for excluding files
+	"todo.embedded.provider": "ag", // The provider to use when searching for embedded todos
+	"todo.embedded.providers.ag.regex": "(?:#|//|/\\*+|<!--|--|\\* @|\\{!|\\{\\{!--|\\{\\{!) *(TODO|FIXME|FIX|BUG|UGLY|HACK|NOTE|IDEA|REVIEW|DEBUG|OPTIMIZE)", // Regex used by ag, requires double escaping
+	"todo.embedded.providers.ag.args": ["--ignore-case"], // Extra arguments to pass to ag
+	"todo.embedded.providers.rg.regex": "(?:#|//|/\\*+|<!--|--|\\* @|\\{!|\\{\\{!--|\\{\\{!) *(TODO|FIXME|FIX|BUG|UGLY|HACK|NOTE|IDEA|REVIEW|DEBUG|OPTIMIZE)", // Regex used by rg, requires double escaping
+	"todo.embedded.providers.rg.args": ["--ignore-case"], // Extra arguments to pass to rg
+	"todo.embedded.file.wholeLine": true, // Show the whole line
+	"todo.embedded.file.groupByRoot": true, // Group embedded todos by workspace root
+	"todo.embedded.file.groupByType": true, // Group embedded todos by type
+	"todo.embedded.file.groupByFile": true, // Group embedded todos by file
+	"todo.embedded.view.wholeLine": false, // Show the whole line
+	"todo.embedded.view.groupByRoot": true, // Group embedded todos by workspace root
+	"todo.embedded.view.groupByType": true, // Group embedded todos by type
+	"todo.embedded.view.groupByFile": true, // Group embedded todos by file
+	"todo.embedded.view.expanded": true, // Start the tree in an expanded state
+	"todo.embedded.view.icons": true, // Show icons next to todos and types"
+
+
+	// BRACKET COLORIZER
+	"bracket-pair-colorizer-2.showBracketsInGutter":true,
+	"bracket-pair-colorizer-2.colorMode":"Consecutive",
+	"bracket-pair-colorizer-2.highlightActiveScope":true,
+	"bracket-pair-colorizer-2.forceIterationColorCycle": true,
+	"workbench.iconTheme": "material-icon-theme",
+	"telemetry.enableTelemetry": false,
+	"telemetry.enableCrashReporter": false,
+	"workbench.enableExperiments": false,
+	"prettier.semi": false,
+	"editor.minimap.renderCharacters": false,
+	"terminal.integrated.fontFamily": "monospace",
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [{
+			"scope":[
+				// "entity.name.type.class",
+				// "entity.name.function",
+				"keyword.operator",
+				"storage.modifier",
+				"storage.type.class.js",
+				"storage.type.function",
+				"storage.type",
+			],
+			"settings": {
+				"fontStyle": "italic"
+			},
+		}]
+	},
+	"extensions.autoUpdate": false
+
+
+}
